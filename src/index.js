@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import './scss/index.scss';
 import {Excel} from './components/excel/Excel';
 import {Header} from './components/header/Header';
