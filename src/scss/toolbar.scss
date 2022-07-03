@@ -5,7 +5,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  top:$header-height;
+  top: $header-height;
   height: $toolbar-height;
   border-top: 1px solid $border-color;
   border-bottom: 1px solid $border-color;
@@ -13,6 +13,6 @@
   display: flex;
 
   .button {
-    @include button()
+    @include button(green);
   }
 }
