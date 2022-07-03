@@ -1,5 +1,5 @@
-@import "mixins";
 @import "variables";
+@import "mixins";
 
 .db {
 
@@ -52,6 +52,7 @@
   &__table {
     padding: 1rem;
   }
+
   &__list-header {
     display: flex;
     justify-content: space-between;
@@ -75,7 +76,7 @@
 
     &:hover {
       background: #e6f4ea;
-      border-radius: 25px;;
+      border-radius: 25px;
     }
 
     a {
@@ -89,4 +90,5 @@
       }
     }
   }
+
 }
